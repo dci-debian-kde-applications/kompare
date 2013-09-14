@@ -1,0 +1,110 @@
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: kompare
+Upstream-Contact: Jeremy Paul Whiting <jpwhiting@kde.org>
+                  Kevin Kofler <kevin.kofler@chello.at>
+Source: http://www.kde.org/download/
+
+Files: *
+Copyright: 2011, Dmitry Risenberg <dmitry.risenberg@gmail.com>
+           2012, Jean-Nicolas Artaud <jeannicolasartaud@gmail.com>
+           2004-2005, Jeff Snyder <jeff-webcvsspam@caffeinated.me.uk>
+           2001,2002,2003, John Firebaugh <jfirebaugh@kde.org>
+           2007,2008,2010,2011,2012, Kevin Kofler <kevin.kofler@chello.at>
+           2001-2009, Otto Bruggeman <otto.bruggeman@home.nl>
+License: GPL-2+
+
+Files: interfaces/kompareinterfaceexport.h
+       libdialogpages/dialogpagesexport.h
+       libdiff2/diff2export.h
+       libdiff2/differencestringpair.h
+       libdiff2/marker.h
+       libdiff2/stringlistpair.cpp
+       libdiff2/stringlistpair.h
+       libdiff2/tests/interactivedifftest.cpp
+       libdiff2/tests/interactivedifftest.h
+       libdiff2/tests/levenshteintest.cpp
+       libdiff2/tests/levenshteintest.h
+Copyright: 2007, Andreas Pakulat <apaku@gmx.de>
+           2011, Dmitry Risenberg <dmitry.risenberg@gmail.com>
+           2004, Jarosław Staniek <staniek@kde.org>
+           2006, Matt Rogers <mattr@kde.org>
+License: LGPL-2+
+
+Files: interfaces/kompareinterface.cpp
+       interfaces/kompareinterface.h
+Copyright: 2002-2004, Otto Bruggeman <otto.bruggeman@home.nl>
+License: GPLv2 or GPLv3 or later editions as approved by KDE eV
+ This program is free software; you can redistribute it and/or
+ modify it under the terms of the GNU General Public License as
+ published by the Free Software Foundation; either version 2 of
+ the License or (at your option) version 3 or any later version
+ accepted by the membership of KDE e.V. (or its successor approved
+ by the membership of KDE e.V.), which shall act as a proxy
+ defined in Section 14 of version 3 of the license.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ .
+ On Debian systems, the full text of the GNU General Public License
+ versions 2 and 3 can be found in `/usr/share/common-licenses/GPL-2' and
+ `/usr/share/common-licenses/GPL-3'.
+
+Files: doc/*
+Copyright: 2007, Sean Wheller <sean@inwords.co.za>
+License: GFDL-1.2+
+
+Files: debian/*
+Copyright: 2007-2013, Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+License: GPL-2+
+
+License: GPL-2+
+ This package is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+ .
+ This package is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program. If not, see <http://www.gnu.org/licenses/>
+ .
+ On Debian systems, the complete text of the GNU General Public
+ License version 2 can be found in "/usr/share/common-licenses/GPL-2".
+
+License: LGPL-2+
+ This program is free software; you can redistribute it and/or modify
+ it under the terms of the GNU Library General Public License as
+ published by the Free Software Foundation; either version 2 of the
+ License, or (at your option) any later version.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU Library General Public
+ License along with this program; if not, write to the
+ Free Software Foundation, Inc.,
+ 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+ .
+ On Debian systems, the complete text of the GNU Library General Public
+ License version 2 can be found in "/usr/share/common-licenses/LGPL-2".
+
+License: GFDL-1.2+
+ Permission is granted to copy, distribute and/or modify this document
+ under the terms of the GNU Free Documentation License, Version 1.2
+ or any later version published by the Free Software Foundation;
+ with no Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts.
+ A copy of the license is included in the section entitled "GNU
+ Free Documentation License".
+ .
+ On Debian systems, the complete text of the GNU Free Documentation
+ License version 1.2 can be found in "/usr/share/common-licenses/GFDL-1.2".
