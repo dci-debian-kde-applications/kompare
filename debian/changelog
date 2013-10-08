@@ -1,5 +1,5 @@
-kompare (4:4.11.1-1) UNRELEASED; urgency=low
+kompare (4:4.11.2-1) UNRELEASED; urgency=low
 
   * First release of kdesdk after being split by upstream.
 
- -- Maximiliano Curia <maxy@debian.org>  Sat, 14 Sep 2013 11:51:27 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 08 Oct 2013 10:42:42 +0200
