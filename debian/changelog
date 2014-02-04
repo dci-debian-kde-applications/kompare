@@ -1,9 +1,10 @@
-kompare (4:4.11.3-2) UNRELEASED; urgency=medium
+kompare (4:4.12.2-1) UNRELEASED; urgency=medium
 
   * Bump Standards-Version to 3.9.5, no changes needed.
   * Add autopkgtests.
+  * New upstream release.
 
- -- Maximiliano Curia <maxy@debian.org>  Mon, 03 Feb 2014 18:21:43 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 04 Feb 2014 19:26:40 +0100
 
 kompare (4:4.11.3-1) unstable; urgency=low
 
