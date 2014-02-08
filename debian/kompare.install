@@ -3,8 +3,6 @@ usr/lib/kde4/komparenavtreepart.so
 usr/lib/kde4/komparepart.so
 usr/lib/libkomparedialogpages.so.4
 usr/lib/libkomparedialogpages.so.4.*
-usr/lib/libkomparediff2.so.4
-usr/lib/libkomparediff2.so.4.*
 usr/lib/libkompareinterface.so.4
 usr/lib/libkompareinterface.so.4.*
 usr/share/applications/kde4/kompare.desktop
