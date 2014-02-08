@@ -14,7 +14,6 @@ Build-Depends: cmake,
                pkg-kde-tools (>= 0.12),
                libkomparediff2-dev
 Standards-Version: 3.9.5
-XS-Testsuite: autopkgtest
 Homepage: http://www.kde.org/
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-sc/kompare.git
 Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-sc/kompare.git
