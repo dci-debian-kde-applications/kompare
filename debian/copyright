@@ -33,7 +33,7 @@ License: LGPL-2+
 Files: interfaces/kompareinterface.cpp
        interfaces/kompareinterface.h
 Copyright: 2002-2004, Otto Bruggeman <otto.bruggeman@home.nl>
-License: GPLv2 or GPLv3 or later editions as approved by KDE eV
+License: GPL-2 or GPL-3 or GPL-KDEeV
  This program is free software; you can redistribute it and/or
  modify it under the terms of the GNU General Public License as
  published by the Free Software Foundation; either version 2 of

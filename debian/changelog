@@ -1,8 +1,66 @@
+kompare (4:14.11.97-0ubuntu1) UNRELEASED; urgency=medium
+
+  * New upstream release
+  * Merge with Debian, remaining changes:
+   - not-installed
+   - fix copyright for dep5
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 28 Nov 2014 18:36:11 +0100
+
 kompare (4:4.14.0-1) unstable; urgency=medium
 
   * New upstream release.
 
  -- Maximiliano Curia <maxy@debian.org>  Sat, 23 Aug 2014 18:28:36 +0200
+
+kompare (4:4.14.2-0ubuntu1) vivid; urgency=medium
+
+  * New upstream release
+  * Fix copyright to use LGPL-KDEeV as short license and 
+    replaced v with - to fix invalid licenses. 
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 10 Oct 2014 05:39:14 -0700
+
+kompare (4:4.14.1-0ubuntu1) utopic; urgency=medium
+
+  * New upstream release
+
+ -- Scarlett Clark <scarlett@scarlettgatelyclark.com>  Mon, 22 Sep 2014 17:25:13 +0200
+
+kompare (4:4.14.0-0ubuntu1) utopic; urgency=medium
+
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 20 Aug 2014 13:17:19 +0200
+
+kompare (4:4.13.97-0ubuntu1) utopic; urgency=medium
+
+  * New upstream beta release RC
+
+ -- Scarlett Clark <scarlett@scarlettgatelyclark.com>  Fri, 01 Aug 2014 16:59:51 +0200
+
+kompare (4:4.13.95-0ubuntu1) utopic; urgency=medium
+
+  * New upstream beta release
+
+ -- Scarlett Clark <scarlett@scarlettgatelyclark.com>  Wed, 30 Jul 2014 18:26:46 +0200
+
+kompare (4:4.13.90-0ubuntu1) utopic; urgency=medium
+
+  [ Scarlett Clark ]
+  * New upstream beta release
+
+  [ Jonathan Riddell ]
+  * Add not-installed file
+
+ -- Scarlett Clark <scarlett@scarlettgatelyclark.com>  Thu, 24 Jul 2014 23:20:31 +0200
+
+kompare (4:4.13.2-0ubuntu1) utopic; urgency=medium
+
+  * New upstream release
+  * Merge with Debian, no changes
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 17 Jun 2014 10:41:55 +0100
 
 kompare (4:4.12.2-2) unstable; urgency=medium
 
@@ -32,3 +90,126 @@ kompare (4:4.11.2-1) experimental; urgency=low
   * First release of kdesdk after being split by upstream.
 
  -- Maximiliano Curia <maxy@debian.org>  Tue, 08 Oct 2013 10:58:28 +0200
+
+kompare (4:4.13.0-0ubuntu1) trusty; urgency=medium
+
+  * New upstream KDE Software Compilation release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 10 Apr 2014 22:10:00 +0100
+
+kompare (4:4.12.97-0ubuntu1) trusty; urgency=medium
+
+  * New upstream release candidate
+
+ -- Philip Muškovac <yofel@kubuntu.org>  Wed, 02 Apr 2014 11:34:42 +0200
+
+kompare (4:4.12.95-0ubuntu1) trusty; urgency=medium
+
+  * New upstream beta release
+
+ -- Rohan Garg <rohangarg@kubuntu.org>  Sun, 23 Mar 2014 12:36:09 +0100
+
+kompare (4:4.12.90-0ubuntu1) trusty; urgency=medium
+
+  * New upstream beta release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 19 Mar 2014 11:06:47 +0000
+
+kompare (4:4.12.3-0ubuntu1) trusty; urgency=medium
+
+  * New upstream bugfix release
+
+ -- Rohan Garg <rohangarg@kubuntu.org>  Tue, 04 Mar 2014 20:56:31 +0100
+
+kompare (4:4.12.2-0ubuntu1) trusty; urgency=medium
+
+  * New upstream bugfix release
+
+ -- Rohan Garg <rohangarg@kubuntu.org>  Wed, 05 Feb 2014 00:08:38 +0000
+
+kompare (4:4.12.1-0ubuntu1) trusty; urgency=low
+
+  * New upstream bugfix release
+
+ -- Rohan Garg <rohangarg@kubuntu.org>  Thu, 16 Jan 2014 08:24:32 +0000
+
+kompare (4:4.12.0-0ubuntu1) trusty; urgency=low
+
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 18 Dec 2013 17:17:37 +0000
+
+kompare (4:4.11.97-0ubuntu1) trusty; urgency=low
+
+  * New upstream RC release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 29 Nov 2013 13:18:05 +0000
+
+kompare (4:4.11.95-0ubuntu1) trusty; urgency=low
+
+  * New upstream beta release
+
+ -- Rohan Garg <rohangarg@kubuntu.org>  Mon, 25 Nov 2013 18:15:25 +0100
+
+kompare (4:4.11.80-0ubuntu1) trusty; urgency=low
+
+  * New upstream beta release
+  * Remove libkomparediff2 from install files, moved into own source package
+
+ -- Rohan Garg <rohangarg@kubuntu.org>  Sat, 23 Nov 2013 17:45:56 +0100
+
+kompare (4:4.11.2-0ubuntu1) saucy; urgency=low
+
+  * New upstream bugfix release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 30 Sep 2013 14:33:23 +0100
+
+kompare (4:4.11.1-0ubuntu1) saucy; urgency=low
+
+  * New upstream bugfix release.
+
+ -- Philip Muškovac <yofel@kubuntu.org>  Fri, 06 Sep 2013 22:27:55 +0100
+
+kompare (4:4.11.0-0ubuntu1) saucy; urgency=low
+
+  [ Howard Chan ]
+  * New upstream release
+
+  [ Jonathan Riddell ]
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 14 Aug 2013 00:23:07 +0100
+
+kompare (4:4.10.97-0ubuntu1) saucy; urgency=low
+
+  * New upstream RC 2 release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 26 Jul 2013 19:43:58 +0100
+
+kompare (4:4.10.95-0ubuntu1) saucy; urgency=low
+
+  * New upstream RC release
+
+ -- Rohan Garg <rohangarg@kubuntu.org>  Fri, 19 Jul 2013 12:32:49 +0000
+
+kompare (4:4.10.90-0ubuntu1) saucy; urgency=low
+
+  [ Jonathan Riddell ]
+  * Add GPL as approved by e.v. to copyright
+  * Make dbg package depend not suggest on main package
+
+  [ Michał Zając ]
+  * New upstream beta release
+
+  [ Philip Muškovac ]
+  * Make dbg package depend on = binary:Version of main package 
+  * Fix comma-separated-files-in-dep5-copyright to make lintian happy 
+
+ -- Michał Zając <quintasan@kubuntu.org>  Fri, 28 Jun 2013 18:19:24 +0100
+
+kompare (4:4.10.80-0ubuntu1) saucy; urgency=low
+
+  * New upstream release
+  * Initial package, split from kdesdk
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 21 Jun 2013 02:37:39 +0100
