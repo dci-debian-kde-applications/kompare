@@ -22,7 +22,7 @@ Package: kompare
 Architecture: any
 Section: devel
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Suggests: khelpcenter4
+Suggests: khelpcenter
 Replaces: libcvsservice0 (<<4:4.0.0)
 Breaks: libcvsservice0 (<<4:4.0.0)
 Description: file difference viewer
