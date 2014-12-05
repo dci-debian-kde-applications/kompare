@@ -15,14 +15,14 @@ Build-Depends: cmake,
                libkomparediff2-dev
 Standards-Version: 3.9.5
 Homepage: http://www.kde.org/
-Vcs-Browser: http://anonscm.debian.org/cgit/pkg-kde/kde-applications/kompare.git/
-Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-applications/kompare.git
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-sc/kompare.git
+Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-sc/kompare.git
 
 Package: kompare
 Architecture: any
 Section: devel
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Suggests: khelpcenter
+Suggests: khelpcenter4
 Replaces: libcvsservice0 (<<4:4.0.0)
 Breaks: libcvsservice0 (<<4:4.0.0)
 Description: file difference viewer
