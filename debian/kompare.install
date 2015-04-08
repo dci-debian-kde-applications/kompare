@@ -1,5 +1,4 @@
 usr/bin/kompare
-usr/lib/*/libkomparedialogpages.so.5
 usr/share/applications/kompare.desktop
 usr/share/doc/
 usr/share/kompare/

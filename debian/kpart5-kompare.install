@@ -1,3 +1,4 @@
+usr/lib/*/libkomparedialogpages.so.5
 usr/lib/*/qt5/plugins/komparenavtreepart.so
 usr/lib/*/qt5/plugins/komparepart.so
 usr/share/icons/hicolor/*/apps/kompare.png
