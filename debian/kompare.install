@@ -1,0 +1,7 @@
+usr/bin/kompare
+usr/lib/*/libkomparedialogpages.so.5
+usr/share/applications/kompare.desktop
+usr/share/doc/
+usr/share/kompare/
+usr/share/kompare/kompareui.rc
+usr/share/man/
