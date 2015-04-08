@@ -55,7 +55,7 @@ Description: file difference viewer - kpart
 
 Package: libkompareinterface-dev
 Architecture: any
-Section: devel
+Section: libdevel
 Depends: libkompareinterface5 (= ${binary:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
@@ -70,7 +70,7 @@ Description: file difference viewer - kpart interface library development files
 
 Package: libkompareinterface5
 Architecture: any
-Section: devel
+Section: libs
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Recommends: kpart5-kompare
 Breaks: kompare (<< 14.12.3+git20150408)
