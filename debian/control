@@ -44,8 +44,8 @@ Package: kpart5-kompare
 Architecture: any
 Section: devel
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Breaks: kompare (<< 14.12.3+git20150408)
-Replaces: kompare (<< 14.12.3+git20150408)
+Breaks: kompare (<< 4:14.12.3+git20150408)
+Replaces: kompare (<< 4:14.12.3+git20150408)
 Description: file difference viewer - kpart
  Kompare displays the differences between files.  It can compare the
  contents of files or directories, as well as create, display, and merge patch
