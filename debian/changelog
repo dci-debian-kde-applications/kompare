@@ -1,3 +1,9 @@
+kompare (4:15.04.0-1~) UNRELEASED; urgency=medium
+
+  * New upstream release (15.04.0).
+
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 23 Apr 2015 16:33:19 +0200
+
 kompare (4:4.14.0-1) unstable; urgency=medium
 
   * New upstream release.
