@@ -59,8 +59,8 @@ Section: libdevel
 Depends: libkompareinterface5 (= ${binary:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
-Breaks: kompare (<< 14.12.3+git20150408)
-Replaces: kompare (<< 14.12.3+git20150408)
+Breaks: kompare (<< 4:14.12.3+git20150408)
+Replaces: kompare (<< 4:14.12.3+git20150408)
 Description: file difference viewer - kpart interface library development files
  Kompare displays the differences between files.  It can compare the
  contents of files or directories, as well as create, display, and merge patch
@@ -74,8 +74,8 @@ Multi-Arch: same
 Section: libs
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Recommends: kpart5-kompare
-Breaks: kompare (<< 14.12.3+git20150408)
-Replaces: kompare (<< 14.12.3+git20150408)
+Breaks: kompare (<< 4:14.12.3+git20150408)
+Replaces: kompare (<< 4:14.12.3+git20150408)
 Description: file difference viewer - kpart interface library
  Kompare displays the differences between files.  It can compare the
  contents of files or directories, as well as create, display, and merge patch
