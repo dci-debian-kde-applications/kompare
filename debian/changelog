@@ -1,4 +1,4 @@
-kompare (4:15.04.0-0ubuntu1) UNRELEASED; urgency=medium
+kompare (4:15.04.1-0ubuntu1) UNRELEASED; urgency=medium
 
   [ Scarlett Clark ]
   * New upstream release
@@ -8,7 +8,10 @@ kompare (4:15.04.0-0ubuntu1) UNRELEASED; urgency=medium
   * Fix kompare.install file so it doesn't share files with kpart5-
     kompare
 
- -- Scarlett Clark <sgclark@kubuntu.org>  Wed, 15 Apr 2015 12:03:32 -0700
+  [ Scarlett Clark ]
+  * New upstream release
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Wed, 13 May 2015 22:16:33 -0700
 
 kompare (4:14.12.3-0ubuntu1) vivid; urgency=medium
 
