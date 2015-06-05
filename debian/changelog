@@ -1,4 +1,4 @@
-kompare (4:15.04.1-0ubuntu1) UNRELEASED; urgency=medium
+kompare (4:15.04.2-0ubuntu1) UNRELEASED; urgency=medium
 
   [ Scarlett Clark ]
   * New upstream release
@@ -12,7 +12,10 @@ kompare (4:15.04.1-0ubuntu1) UNRELEASED; urgency=medium
   * New upstream release
   * Vivid backport
 
- -- Scarlett Clark <sgclark@kubuntu.org>  Wed, 27 May 2015 08:55:24 -0700
+  [ Jonathan Riddell ]
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Sat, 06 Jun 2015 01:44:24 +0200
 
 kompare (4:14.12.3-0ubuntu1) vivid; urgency=medium
 
