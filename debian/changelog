@@ -76,8 +76,8 @@ kompare (4:4.14.0-1) unstable; urgency=medium
 kompare (4:4.14.2-0ubuntu1) vivid; urgency=medium
 
   * New upstream release
-  * Fix copyright to use LGPL-KDEeV as short license and 
-    replaced v with - to fix invalid licenses. 
+  * Fix copyright to use LGPL-KDEeV as short license and
+    replaced v with - to fix invalid licenses.
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 10 Oct 2014 05:39:14 -0700
 
@@ -262,8 +262,8 @@ kompare (4:4.10.90-0ubuntu1) saucy; urgency=low
   * New upstream beta release
 
   [ Philip Muškovac ]
-  * Make dbg package depend on = binary:Version of main package 
-  * Fix comma-separated-files-in-dep5-copyright to make lintian happy 
+  * Make dbg package depend on = binary:Version of main package
+  * Fix comma-separated-files-in-dep5-copyright to make lintian happy
 
  -- Michał Zając <quintasan@kubuntu.org>  Fri, 28 Jun 2013 18:19:24 +0100
 
