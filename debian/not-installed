@@ -1,0 +1,4 @@
+#unused dev files
+./usr/include/kompare/kompareinterface.h
+./usr/lib/libkomparedialogpages.so
+./usr/lib/libkompareinterface.so

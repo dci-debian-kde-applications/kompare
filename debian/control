@@ -1,7 +1,7 @@
 Source: kompare
 Section: kde
 Priority: optional
-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Sune Vuorela <sune@debian.org>,
            Fathi Boudra <fabo@debian.org>,
            Modestas Vainius <modax@debian.org>,
@@ -10,8 +10,6 @@ Uploaders: Sune Vuorela <sune@debian.org>,
 Build-Depends: cmake (>= 2.8.12~),
                debhelper (>= 9),
                extra-cmake-modules (>= 0.0.9~),
-               kde-sc-dev-latest (>= 4:4.12),
-               kdelibs5-dev (>= 4:4.11),
                kdoctools-dev,
                libkf5codecs-dev,
                libkf5config-dev,
@@ -21,22 +19,64 @@ Build-Depends: cmake (>= 2.8.12~),
                libkf5parts-dev,
                libkf5texteditor-dev,
                libkf5widgetsaddons-dev,
-               libkomparediff2-dev,
-               pkg-kde-tools (>= 0.12),
-               qtbase5-dev (>= 5.4)
-Standards-Version: 3.9.5
+               libkomparediff2-dev (>= 4:15.04.2),
+               pkg-kde-tools (>= 0.12)
+Standards-Version: 3.9.6
 Homepage: http://www.kde.org/
-Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-sc/kompare.git
-Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-sc/kompare.git
+Vcs-Browser: http://anonscm.debian.org/cgit/pkg-kde/kde-applications/kompare.git/
+Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-applications/kompare.git
 
 Package: kompare
 Architecture: any
 Section: devel
-Depends: ${misc:Depends}, ${shlibs:Depends}
-Suggests: khelpcenter4
-Replaces: libcvsservice0 (<<4:4.0.0)
-Breaks: libcvsservice0 (<<4:4.0.0)
+Depends: kpart5-kompare (= ${binary:Version}),
+         ${misc:Depends},
+         ${shlibs:Depends}
+Suggests: khelpcenter
 Description: file difference viewer
+ Kompare displays the differences between files.  It can compare the
+ contents of files or directories, as well as create, display, and merge patch
+ files.
+ .
+ This package is part of the KDE Software Development Kit module.
+
+Package: kpart5-kompare
+Architecture: any
+Section: devel
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Breaks: kompare (<< 4:14.12.3+git20150408)
+Replaces: kompare (<< 4:14.12.3+git20150408)
+Description: file difference viewer - kpart
+ Kompare displays the differences between files.  It can compare the
+ contents of files or directories, as well as create, display, and merge patch
+ files.
+ .
+ This package is part of the KDE Software Development Kit module.
+
+Package: libkompareinterface-dev
+Architecture: any
+Section: libdevel
+Depends: libkompareinterface5 (= ${binary:Version}),
+         ${misc:Depends},
+         ${shlibs:Depends}
+Breaks: kompare (<< 4:14.12.3+git20150408)
+Replaces: kompare (<< 4:14.12.3+git20150408)
+Description: file difference viewer - kpart interface library development files
+ Kompare displays the differences between files.  It can compare the
+ contents of files or directories, as well as create, display, and merge patch
+ files.
+ .
+ This package is part of the KDE Software Development Kit module.
+
+Package: libkompareinterface5
+Architecture: any
+Multi-Arch: same
+Section: libs
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Recommends: kpart5-kompare
+Breaks: kompare (<< 4:14.12.3+git20150408)
+Replaces: kompare (<< 4:14.12.3+git20150408)
+Description: file difference viewer - kpart interface library
  Kompare displays the differences between files.  It can compare the
  contents of files or directories, as well as create, display, and merge patch
  files.
