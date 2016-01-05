@@ -1,4 +1,4 @@
 usr/bin/kompare
-usr/share/applications/kompare.desktop
+usr/share/applications/org.kde.kompare.desktop
 usr/share/doc/
 usr/share/kxmlgui5/kompare/kompareui.rc
