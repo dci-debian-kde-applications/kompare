@@ -5,35 +5,22 @@ Upstream-Contact: Jeremy Paul Whiting <jpwhiting@kde.org>
 Source: http://www.kde.org/download/
 
 Files: *
-Copyright: 2011, Dmitry Risenberg <dmitry.risenberg@gmail.com>
+Copyright: 1989-1991, Free Software Foundation, Inc
            2012, Jean-Nicolas Artaud <jeannicolasartaud@gmail.com>
+           2004-2005, Jeff Snyder
            2004-2005, Jeff Snyder <jeff-webcvsspam@caffeinated.me.uk>
-           2001,2002,2003, John Firebaugh <jfirebaugh@kde.org>
-           2007,2008,2010,2011,2012, Kevin Kofler <kevin.kofler@chello.at>
-           2001-2009, Otto Bruggeman <otto.bruggeman@home.nl>
+           2004, Jeff Snyder <jeff@caffeinated.me.uk>
+           2001-2003, John Firebaugh <jfirebaugh@kde.org>
+           2007-2012, Kevin Kofler <kevin.kofler@chello.at>
+           2001-2009, Otto Bruggeman
+           2001-2009, Otto Bruggeman <bruggie@gmail.com>
+           2001-2004, Otto Bruggeman <otto.bruggeman@home.nl>
 License: GPL-2+
-
-Files: interfaces/kompareinterfaceexport.h
-       libdialogpages/dialogpagesexport.h
-       libdiff2/diff2export.h
-       libdiff2/differencestringpair.h
-       libdiff2/marker.h
-       libdiff2/stringlistpair.cpp
-       libdiff2/stringlistpair.h
-       libdiff2/tests/interactivedifftest.cpp
-       libdiff2/tests/interactivedifftest.h
-       libdiff2/tests/levenshteintest.cpp
-       libdiff2/tests/levenshteintest.h
-Copyright: 2007, Andreas Pakulat <apaku@gmx.de>
-           2011, Dmitry Risenberg <dmitry.risenberg@gmail.com>
-           2004, Jarosław Staniek <staniek@kde.org>
-           2006, Matt Rogers <mattr@kde.org>
-License: LGPL-2+
 
 Files: interfaces/kompareinterface.cpp
        interfaces/kompareinterface.h
 Copyright: 2002-2004, Otto Bruggeman <otto.bruggeman@home.nl>
-License: GPL-2 or GPL-3 or GPL-KDEeV
+License: GPL-2+3+KDEeV
  This program is free software; you can redistribute it and/or
  modify it under the terms of the GNU General Public License as
  published by the Free Software Foundation; either version 2 of
@@ -55,7 +42,8 @@ License: GPL-2 or GPL-3 or GPL-KDEeV
  `/usr/share/common-licenses/GPL-3'.
 
 Files: doc/*
-Copyright: 2007, Sean Wheller <sean@inwords.co.za>
+Copyright: 2001-2004, John Firebaugh
+           2007, Sean Wheller <sean@inwords.co.za>
 License: GFDL-1.2+
 
 Files: debian/*
@@ -78,25 +66,6 @@ License: GPL-2+
  .
  On Debian systems, the complete text of the GNU General Public
  License version 2 can be found in "/usr/share/common-licenses/GPL-2".
-
-License: LGPL-2+
- This program is free software; you can redistribute it and/or modify
- it under the terms of the GNU Library General Public License as
- published by the Free Software Foundation; either version 2 of the
- License, or (at your option) any later version.
- .
- This program is distributed in the hope that it will be useful,
- but WITHOUT ANY WARRANTY; without even the implied warranty of
- MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- GNU General Public License for more details.
- .
- You should have received a copy of the GNU Library General Public
- License along with this program; if not, write to the
- Free Software Foundation, Inc.,
- 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
- .
- On Debian systems, the complete text of the GNU Library General Public
- License version 2 can be found in "/usr/share/common-licenses/LGPL-2".
 
 License: GFDL-1.2+
  Permission is granted to copy, distribute and/or modify this document

@@ -1,8 +1,15 @@
-kompare (4:15.12.0-0ubuntu1) UNRELEASED; urgency=medium
+kompare (4:15.12.1-0ubuntu1) UNRELEASED; urgency=medium
 
   * New upstream release
+  * Merged with Debian 
 
- -- Clive Johnston <clivejo@aol.com>  Sat, 02 Jan 2016 14:07:57 +0000
+ -- Clive Johnston <clivejo@aol.com>  Sat, 06 Feb 2016 17:54:24 +0000
+
+kompare (4:15.12.0-1) experimental; urgency=medium
+
+  * New upstream release (15.12.0).
+
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 01 Feb 2016 10:23:45 +0100
 
 kompare (4:15.08.2-0ubuntu1) wily; urgency=medium
 
@@ -16,6 +23,23 @@ kompare (4:15.08.1-0ubuntu1) wily; urgency=medium
   * New upstream release (15.08.1)
 
  -- Clive Johnston <clivejo@aol.com>  Tue, 22 Sep 2015 17:12:22 +0100
+
+kompare (4:15.08.1-1) unstable; urgency=medium
+
+  * New upstream release (15.08.1).
+
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 19 Sep 2015 02:45:03 +0200
+
+kompare (4:15.08.0-1) unstable; urgency=medium
+
+  * New upstream release (15.04.0).
+  * New upstream release (15.04.1).
+  * New upstream release (15.04.3).
+  * New upstream release (15.08.0).
+  * Update copyright file.
+
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 01 Sep 2015 12:01:35 +0200
+>>>>>>> master
 
 kompare (4:15.08.0-0ubuntu1) wily; urgency=medium
 
@@ -50,7 +74,7 @@ kompare (4:15.04.2-0ubuntu1) wily; urgency=medium
 
 kompare (4:14.12.3-0ubuntu1) vivid; urgency=medium
 
-  * Add back kdelibs parent version depend 
+  * Add back kdelibs parent version depend
   * New upstream release
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 13 Mar 2015 14:19:09 -0700
@@ -86,8 +110,8 @@ kompare (4:4.14.0-1) unstable; urgency=medium
 kompare (4:4.14.2-0ubuntu1) vivid; urgency=medium
 
   * New upstream release
-  * Fix copyright to use LGPL-KDEeV as short license and 
-    replaced v with - to fix invalid licenses. 
+  * Fix copyright to use LGPL-KDEeV as short license and
+    replaced v with - to fix invalid licenses.
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 10 Oct 2014 05:39:14 -0700
 
@@ -272,8 +296,8 @@ kompare (4:4.10.90-0ubuntu1) saucy; urgency=low
   * New upstream beta release
 
   [ Philip Muškovac ]
-  * Make dbg package depend on = binary:Version of main package 
-  * Fix comma-separated-files-in-dep5-copyright to make lintian happy 
+  * Make dbg package depend on = binary:Version of main package
+  * Fix comma-separated-files-in-dep5-copyright to make lintian happy
 
  -- Michał Zając <quintasan@kubuntu.org>  Fri, 28 Jun 2013 18:19:24 +0100
 
