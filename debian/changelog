@@ -1,7 +1,11 @@
 kompare (4:15.12.1-0ubuntu1) UNRELEASED; urgency=medium
 
+  [ Clive Johnston ]
   * New upstream release
   * Merged with Debian 
+
+  [ Scarlett Clark ]
+  * Remove merge conflict tag from changelog. 
 
  -- Clive Johnston <clivejo@aol.com>  Sat, 06 Feb 2016 17:54:24 +0000
 
@@ -39,7 +43,6 @@ kompare (4:15.08.0-1) unstable; urgency=medium
   * Update copyright file.
 
  -- Maximiliano Curia <maxy@debian.org>  Tue, 01 Sep 2015 12:01:35 +0200
->>>>>>> master
 
 kompare (4:15.08.0-0ubuntu1) wily; urgency=medium
 
