@@ -1,4 +1,4 @@
-kompare (4:15.12.1-0ubuntu1) UNRELEASED; urgency=medium
+kompare (4:15.12.1-0ubuntu1) xenial; urgency=medium
 
   [ Clive Johnston ]
   * New upstream release
@@ -7,7 +7,7 @@ kompare (4:15.12.1-0ubuntu1) UNRELEASED; urgency=medium
   [ Scarlett Clark ]
   * Remove merge conflict tag from changelog. 
 
- -- Clive Johnston <clivejo@aol.com>  Sat, 06 Feb 2016 17:54:24 +0000
+ -- Clive Johnston <clivejo@aol.com>  Wed, 09 Mar 2016 10:57:10 +0100
 
 kompare (4:15.12.0-1) experimental; urgency=medium
 
