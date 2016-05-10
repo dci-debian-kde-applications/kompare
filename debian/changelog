@@ -1,6 +1,6 @@
-kompare (4:15.12.0-2~2.gbp1a8ac5) UNRELEASED; urgency=medium
+kompare (4:16.04.1-1~1.gbpd0754e) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @1a8ac561c7624fd3818c29a1e0d9d0423cc7825c **
+  ** SNAPSHOT build @d0754ebd7a89500a8c3813e527ff58694c53a68f **
 
   [ Automatic packaging ]
   ** SNAPSHOT build @8d9a3a982cf36395feaa5d5fbf9d71c82b3a466a **
@@ -11,8 +11,9 @@ kompare (4:15.12.0-2~2.gbp1a8ac5) UNRELEASED; urgency=medium
   [ Maximiliano Curia ]
   * Add upstream metadata (DEP-12)
   * debian/control: Update Vcs-Browser and Vcs-Git fields
+  * UNRELEASED
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Mon, 09 May 2016 11:33:18 +0200
+ -- Maximiliano Curia <jenkins@amadeus.gnuservers.com.ar>  Wed, 11 May 2016 01:33:20 +0200
 
 kompare (4:15.12.0-1) experimental; urgency=medium
 
