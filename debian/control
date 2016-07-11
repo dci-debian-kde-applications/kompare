@@ -22,7 +22,7 @@ Build-Depends: cmake (>= 2.8.12~),
                libkomparediff2-dev (>= 4:15.04.2),
                pkg-kde-tools (>= 0.12),
                qtbase5-dev
-Standards-Version: 3.9.6
+Standards-Version: 3.9.8
 Homepage: http://www.kde.org/
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/kde-applications/kompare.git/
 Vcs-Git: https://anonscm.debian.org/git/pkg-kde/kde-applications/kompare.git
