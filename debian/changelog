@@ -1,3 +1,11 @@
+kompare (4:16.08.0-1~1.gbp326bdc) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @326bdc9ecd12e10a2e81fb434b345b7e35809449 **
+
+  * UNRELEASED
+
+ -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Thu, 18 Aug 2016 19:33:13 +0200
+
 kompare (4:16.04.1-1) unstable; urgency=medium
 
   [ Automatic packaging ]
