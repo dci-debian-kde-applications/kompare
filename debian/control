@@ -6,14 +6,14 @@ Uploaders: Sune Vuorela <sune@debian.org>,
            Fathi Boudra <fabo@debian.org>,
            Modestas Vainius <modax@debian.org>,
            George Kiagiadakis <kiagiadakis.george@gmail.com>,
-           Maximiliano Curia <maxy@debian.org>
+           Maximiliano Curia <maxy@debian.org>,
 Build-Depends: cmake (>= 2.8.12~),
                debhelper (>= 9),
                extra-cmake-modules (>= 0.0.9~),
-               libkf5doctools-dev,
                libkf5codecs-dev,
                libkf5config-dev,
                libkf5coreaddons-dev,
+               libkf5doctools-dev,
                libkf5iconthemes-dev,
                libkf5jobwidgets-dev,
                libkf5parts-dev,
@@ -21,7 +21,7 @@ Build-Depends: cmake (>= 2.8.12~),
                libkf5widgetsaddons-dev,
                libkomparediff2-dev (>= 4:15.04.2),
                pkg-kde-tools (>= 0.12),
-               qtbase5-dev
+               qtbase5-dev,
 Standards-Version: 4.1.0
 Homepage: http://www.kde.org/
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/applications/kompare.git/
@@ -32,7 +32,7 @@ Architecture: any
 Section: devel
 Depends: kpart5-kompare (= ${binary:Version}),
          ${misc:Depends},
-         ${shlibs:Depends}
+         ${shlibs:Depends},
 Suggests: khelpcenter
 Breaks: ${kde-l10n:all}
 Replaces: ${kde-l10n:all}
@@ -61,7 +61,7 @@ Architecture: any
 Section: libdevel
 Depends: libkompareinterface5 (= ${binary:Version}),
          ${misc:Depends},
-         ${shlibs:Depends}
+         ${shlibs:Depends},
 Breaks: kompare (<< 4:14.12.3+git20150408)
 Replaces: kompare (<< 4:14.12.3+git20150408)
 Description: file difference viewer - kpart interface library development files
