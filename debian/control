@@ -34,6 +34,8 @@ Depends: kpart5-kompare (= ${binary:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
 Suggests: khelpcenter
+Breaks: ${kde-l10n:all}
+Replaces: ${kde-l10n:all}
 Description: file difference viewer
  Kompare displays the differences between files.  It can compare the
  contents of files or directories, as well as create, display, and merge patch
