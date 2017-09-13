@@ -1,0 +1,55 @@
+---
+name: kompare
+version: 17.08.1
+summary: Diff/Patch Frontend
+description: |-
+    Kompare is a GUI front-end program that enables differences between source files to be viewed and merged. It can be used to compare differences on files or the contents of folders, and it supports a variety of diff formats and provide many options to customize the information level displayed.
+
+    Features:
+
+    - Comparing differences on files or the contents of folders recursively.
+    - Supports a variety of diff formats and provides many options to customize the information level displayed.
+    - Creating and applying patches.
+confinement: strict
+grade: stable
+apps:
+    kompare:
+        command: kf5-launch kompare
+        plugs:
+        - kde-frameworks-5-plug
+        - home
+        - x11
+        - opengl
+        - network
+        - network-bind
+        - unity7
+        - pulseaudio
+slots:
+    session-dbus-interface:
+        interface: dbus
+        name: org.kde.kompare
+        bus: session
+plugs:
+    kde-frameworks-5-plug:
+        content: kde-frameworks-5-all
+        interface: content
+        default-provider: kde-frameworks-5
+        target: kf5
+parts:
+    kompare:
+        after:
+        - kde-frameworks-5-dev
+        - kde-frameworks-5-env
+        plugin: cmake
+        build-packages:
+        - kdoctools-dev
+        - libkomparediff2-dev
+        - libpulse0
+        source: https://download.kde.org/stable/applications/17.08.1/src/kompare-17.08.1.tar.xz
+        configflags:
+        - "-DKDE_INSTALL_USE_QT_SYS_PATHS=ON"
+        - "-DCMAKE_INSTALL_PREFIX=/usr"
+        - "-DCMAKE_BUILD_TYPE=Release"
+        - "-DENABLE_TESTING=OFF"
+        - "-DBUILD_TESTING=OFF"
+        - "-DKDE_SKIP_TEST_SETTINGS=ON"
